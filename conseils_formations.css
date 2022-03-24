@@ -164,11 +164,6 @@ nav .icon-burger .line {
 	color: #E74513;
 }
 
-.sous-titre {
-	text-align: center;
-	font-size: 35px;
-}
-
 .texte{
 	font-size: 20px;
 	margin-left: 10px;
@@ -284,6 +279,30 @@ nav .icon-burger .line {
 	margin-right: auto;
 	margin-left: auto;
 	height: 10px;
+}
+
+.bouton_couleur {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	text-align: center;
+	color: white;
+	border: solid 2px white;
+}
+
+.bouton_couleur span {
+	font-size: 20px;
+}
+
+@media (max-width: 768px) {
+	.bouton_couleur {
+		width: 75%;
+	}
+
+	.bouton_couleur span {
+		font-size: 15px;
+	}
 }
 
 /* -------------------Footer----------------------- */

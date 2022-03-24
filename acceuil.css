@@ -259,6 +259,31 @@ nav .icon-burger .line {
 	}
 }
 
+.cadre_photo {
+	width: 35%;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px;
+}
+
+img {
+	width: 75%;
+}
+
+@media (max-width: 768px) {
+	img {
+		width: 100%;
+		padding: 15px;
+		
+	}
+
+	.cadre_photo {
+		width: 100%;
+	}
+}
+
+
 /* -------------------Footer----------------------- */
 
 .pied {
